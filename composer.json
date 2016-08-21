@@ -1,0 +1,21 @@
+{
+    "name": "youmad/ts3php",
+    "type": "library",
+    "license": "gpl-3",
+    "authors": [
+        {
+            "name": "Rinat Kamaletdinov",
+            "email": "admin@madcode.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Youmad\\TeamSpeak3\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.1@beta",
+        "doctrine/collections": "^1.3"
+    }
+}
